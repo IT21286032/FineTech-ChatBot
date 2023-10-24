@@ -16,9 +16,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-col1, col2, col3 = st.columns([1,10,1])
+# Create space at the top to push logo and title down to center
+st.write("\n\n\n\n\n\n")
+
+# Logo at the center of the page
+st.image("images/logo1.png", width=200)
+col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("images/logo1.png", width=200)
+    
     st.title('FineTech Assistant 🤖')
     st.write("Welcome to FineTech! Your tech shopping assistant. Ask me anything!")
 
