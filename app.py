@@ -16,7 +16,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-col1, col2, col3, col4 = st.columns([0.4,1,5,1])  
+col1, col2, col3, col4 = st.columns([0.7,1,5,1])  
 with col2:
     st.image("images/logo1.png", width=200)
 
