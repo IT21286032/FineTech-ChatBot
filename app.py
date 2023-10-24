@@ -16,7 +16,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-col1, col2, col3 = st.columns([1,6,1])
+col1, col2, col3 = st.columns([1,10,1])
 with col2:
     st.image("images/logo1.png", width=200)
     st.title('FineTech Assistant 🤖')
