@@ -33,8 +33,8 @@ nltk.download('wordnet')
 
 
 
-product_df = pd.read_csv('realistic_product_data.csv')
-conversational_df = pd.read_csv('realistic_conversational_data_final.csv')
+product_df = pd.read_csv('dataset/product_data.csv')
+conversational_df = pd.read_csv('dataset/conversational_data.csv')
 
 lemmatizer = WordNetLemmatizer()
 stemmer = PorterStemmer()
