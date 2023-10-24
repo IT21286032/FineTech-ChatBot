@@ -17,11 +17,13 @@ st.set_page_config(
 )
 
 # Design header
-col1, col2, col3 = st.columns([2,6,1])
-with col2:
+col1, col2, col3,col4 = st.columns([2,5,1,6])
+
+with col4:
     st.image("images/logo1.png", width=200)
-st.title('FineTech Assistant 🤖')
-st.write("Welcome to FineTech! Your tech shopping assistant. Ask me anything!")
+with col2:
+    st.title('FineTech Assistant 🤖')
+    st.write("Welcome to FineTech! Your tech shopping assistant. Ask me anything!")
 
 # Sidebar with company info and branding
 st.sidebar.title("FineTech")
