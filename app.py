@@ -20,8 +20,8 @@ st.set_page_config(
 col1, col2, col3 = st.columns([2,6,1])
 with col2:
     st.image("images/logo1.png", width=200)
-    st.title('FineTech Assistant 🤖')
-    st.write("Welcome to FineTech! Your tech shopping assistant. Ask me anything!")
+st.title('FineTech Assistant 🤖')
+st.write("Welcome to FineTech! Your tech shopping assistant. Ask me anything!")
 
 # Sidebar with company info and branding
 st.sidebar.title("FineTech")
