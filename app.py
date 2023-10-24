@@ -20,7 +20,7 @@ st.set_page_config(
 st.write("\n\n\n\n\n\n")
 
 # Logo at the center of the page
-st.image("images/logo1.png", width=200)
+st.image("images/1.png", width=200)
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
     
