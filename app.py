@@ -29,7 +29,7 @@ with col2:
 
 # Sidebar with company info and branding
 st.sidebar.title("FineTech")
-st.sidebar.image("images/logo2.png", width=200)
+st.sidebar.image("images/2.png", width=200)
 st.sidebar.write("FineTech is your one-stop destination for all tech products. From the latest smartphones to cutting-edge laptops, we've got it all!")
 st.sidebar.write("Have questions? Ask our chatbot here or visit our [website](#)!")  # Replace # with your website link
 
