@@ -16,12 +16,11 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Design header
-col1, col2, col3,col4 = st.columns([2,5,1,6])
-
-with col4:
-    st.image("images/logo1.png", width=200)
+col1, col2, col3, col4 = st.columns([1,1,5,1])  
 with col2:
+    st.image("images/logo1.png", width=200)
+
+with col3:
     st.title('FineTech Assistant 🤖')
     st.write("Welcome to FineTech! Your tech shopping assistant. Ask me anything!")
 
