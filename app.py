@@ -58,4 +58,4 @@ for message in st.session_state.chat_history:
 # Footer branding
 st.write("---")
 st.write("© 2023 FineTech - Bringing technology closer to you!")
-st.write("[Privacy Policy](#) | [Terms of Service](#)")  # Replace # with actual links if available
+st.write("[Products Page](#) | [Terms of Service](#)")  # Replace
